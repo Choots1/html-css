@@ -88,6 +88,11 @@ main p {
     line-height: 2em;
 }
 
+main img{
+    width: 100%;
+}
+
+
 main{
     background-color: white;
     margin: auto;
