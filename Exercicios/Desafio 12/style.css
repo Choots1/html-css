@@ -14,6 +14,11 @@
     font-style: normal;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 :root{
     --fonte-passion: 'passion', cursive;
 }
@@ -23,15 +28,23 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    margin: 0px;
     width: auto;
+    font-size: 1.5em;
     /*min-height: 150px;*/
 }
 
-body{
-    background-color: yellow;
+header > h1{
     margin: 0px;
-    padding: 0px;
+    padding-top: 25px;
+}
+
+header > p{
+    margin: 0px;
+    padding: 0px 0px 50px 0px;
+}
+
+body{
+    background-color: white;
 }
 
 footer{
@@ -41,4 +54,12 @@ footer{
     font-size: 1em;
     text-align: center;
     padding: 1px;
+}
+
+.imagem{
+    background-color: yellow;
+}
+
+.normal{
+    background-color: white;
 }
